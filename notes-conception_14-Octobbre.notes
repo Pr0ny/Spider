@@ -1,0 +1,11 @@
+Structure Event :
+
+	1 :	int	-> _repeatCount		16 bits
+	2 :	char	-> _scanCode		8 bit
+	3 :	bool	-> _isExtend		1 bit
+	4 : 	bool	-> _alt			1 bit
+	5 :	bool	-> _prevKeyState	1 bit
+	6 : 	bool	-> _transState		1 bit
+	7 : 	int	-> _virKeyCode		16 bits
+
+Poids total 3,4 bytes. (data storage)
