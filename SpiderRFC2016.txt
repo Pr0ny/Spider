@@ -429,7 +429,7 @@ Table of contents
 
 	request chain → 
 		UA -------------------v------------------- O
-		          					      ← response chain
+							     ← response chain
 
 
 
@@ -458,7 +458,7 @@ Table of contents
 
 	request chain → 
 		UA -----v----- A -----v----- B -----v----- C -----v----- O
-		          					      ← response chain
+							     ← response chain
 
 
 	The figure above shows three intermediaries (A, B, and C) between the
@@ -483,7 +483,7 @@ Table of contents
 
 	request chain → 
 		UA -----v----- A -----v----- B - - - - - - C - - - - - - O
-		          					      ← response chain
+							     ← response chain
 
 	Not all responses are usefully cacheable, and some requests may
 	contain modifiers which place special requirements on cache behavior.
